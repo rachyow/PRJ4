@@ -1,17 +1,93 @@
-@charset "utf-8";
-/* CSS document*/
+/* Use this file to use your own styles*/
+
+/* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+/* Styles for the body and headers */
+H1 {
+	font-family: "Bodoni Moda 11pt";
+}
+h2{
+	font-family: "Bodoni Moda 11pt";
+}
+h3{
+	font-family: "Bodoni Moda 11pt";
+}
+h4{
+	font-family: "Bodoni Moda 11pt";
+}
+h5{
+	font-family: "Bodoni Moda 11pt";
+}
+h6{
+	font-family: "Bodoni Moda 11pt";
+}
+h7{
+	font-family: Gotham, 'Helvetica Neue';
+}
+
 body {
-  background-color: paleturquoise;
+	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+	color: #202030;
+	background-color: #f8f8fc;
+	font-size: 12px;
 }
-h1 {
-  color: blueviolet;
-  text-align: center;
+
+/* Styles for custom classes in the document. (There are more, try to find them out!) */
+.fw-bolder {
+	padding-top: 20px;
 }
-h3 {
-	color: violet;
-	text-allign: center;
+.resume-header {
+    background-color: #9C5A71;
+	color: floralwhite;
 }
-p {
-  color: black;
-  font-size: 20px;
+
+.resume-main {
+	background-color: #E9D8E1;
+}
+
+.resume-aside {
+	background-color: #B6E8BA;
+}
+
+/* Styles for lists in the document */
+
+.biography-details li::before, .skill-list li::before {
+	content: ">";
+	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+	font-weight: 800;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+.language-name {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.language-progress {
+	background-color: #9C5A71 !important;
+}
+.language-level{
+	border-color: #60A340 !important;
+}
+
+.biography-details li::before {
+	color: #60A340;
+}
+
+.skill-list li::before {
+	color: #9C5A71
+}
+
+.biography-details li, .skill-list li {
+	padding-left: 1em;
+}
+
+/* Styles for contact icons */
+.contact-item {
+	color: #9C5A71;
+}
+.contact-icon {
+	height: 1.5em;
+	flex-basis: 1.5em;
+	padding-right: 5px;
 }
