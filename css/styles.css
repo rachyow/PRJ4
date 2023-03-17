@@ -45,10 +45,15 @@ body {
 
 .resume-main {
 	background-color: #E9D8E1;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px
 }
 
 .resume-aside {
 	background-color: #B6E8BA;
+	padding-right: 30px;
+	padding-left: 30px;
 }
 
 /* Styles for lists in the document */
