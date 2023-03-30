@@ -85,7 +85,10 @@ body {
 .biography-details li, .skill-list li {
 	padding-left: 1em;
 }
-
+.header-content {
+	font-family: 'Bodoni Moda';
+	font-weight: 800;
+}
 /* contact icons */
 .contact-item {
 	color: #9C5A71;
