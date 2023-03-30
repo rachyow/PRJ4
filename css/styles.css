@@ -49,18 +49,15 @@ body {
 .resume-header {
     background-color: #9C5A71;
 	color: floralwhite;
-	padding: 30px;
+	padding: 45px;
 }
 .resume-main {
 	background-color: #E9D8E1;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-bottom: 30px
+	padding: 50px;
 }
 .resume-aside {
 	background-color: #B6E8BA;
-	padding-right: 30px;
-	padding-left: 30px;
+	padding: 50px;
 }
 .biography-item{
 	font-family: 'Edu NSW ACT Foundation';
@@ -76,9 +73,6 @@ body {
 }
 .language-level{
 	border-color: #60A340 !important;
-}
-.biography-details li::before {
-	color: #60A340;
 }
 .skill-item{
 	font-family: 'Edu NSW ACT Foundation';
@@ -112,4 +106,7 @@ body {
 }
 .skill-list li::before {
 	color: #9C5A71;
+}
+.biography-details li::before {
+	color: #60A340;
 }
