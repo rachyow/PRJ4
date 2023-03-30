@@ -3,27 +3,27 @@
 
 /* body and headers */
 h1 {
-	font-family: "BodoniModa";
+	font-family: 'Bodoni Moda';
 	font-weight: 800;
 }
 h2{
-	font-family: "Bodoni Moda";
+	font-family: 'Bodoni Moda';
 	font-weight: 700;
 }
 h3{
-	font-family: "Bodoni Moda";
+	font-family: 'Bodoni Moda';
 	font-weight: 600;
 }
 h4{
-	font-family: "Bodoni Moda";
+	font-family: 'Bodoni Moda';
 	font-weight: 500;
 }
 h5{
-	font-family: "Bodoni Moda";
+	font-family: 'Bodoni Moda';
 	font-weight: 400;
 }
 h6{
-	font-family: "Bodoni Moda";
+	font-family: 'Bodoni Moda';
 	font-weight: 300;
 }
 
@@ -76,15 +76,12 @@ body {
 .language-level{
 	border-color: #60A340 !important;
 }
-
 .biography-details li::before {
 	color: #60A340;
 }
-
 .skill-list li::before {
 	color: #9C5A71;
 }
-
 .biography-details li, .skill-list li {
 	padding-left: 1em;
 }
