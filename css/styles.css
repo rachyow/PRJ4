@@ -6,34 +6,40 @@
 h1 {
 	font-family: 'Delicious Handrawn';
 	font-weight: 500;
-	font-size: 50px;
+	font-size: 55px;
+	
 }
 h2{
 	font-family: 'Delicious Handrawn';
 	font-weight: 400;
+	font-size: 30px;
 }
 h3{
 	font-family: 'Edu NSW ACT Foundation';
-	font-weight: 600;
+	font-weight: 500;
+	font-size: 22px;
 }
 h4{
 	font-family: 'Edu NSW ACT Foundation';
-	font-weight: 500;
+	font-weight: 400;
+	font-size: 18px;
 }
 h5{
 	font-family: 'Edu NSW ACT Foundation';
-	font-weight: 500;
+	font-weight: 300;
+	font-size: 14px;
 }
 h6{
 	font-family: 'Edu NSW ACT Foundation';
-	font-weight: 400;
+	font-weight: 300;
+	font-size: 25px;
 }
-
 body {
 	font-family: 'Edu NSW ACT Foundation';
 	color: #202030;
 	background-color: #f8f8fc;
 	font-size: 12px;
+	font-weight: 300;
 }
 
 /* custom classes */
@@ -56,15 +62,9 @@ body {
 	padding-right: 30px;
 	padding-left: 30px;
 }
-.biography-details{
+.biography-item{
 	font-family: 'Edu NSW ACT Foundation';
 	font-weight: 500;
-}
-.biography-details li::before, .skill-list li::before {
-	content: ">";
-	display: inline-block;
-	width: 1em;
-	margin-left: -1em;
 }
 .language-name {
 	font-family: 'Edu NSW ACT Foundation';
@@ -80,18 +80,11 @@ body {
 .biography-details li::before {
 	color: #60A340;
 }
-.skill-list li::before {
-	color: #9C5A71;
-}
 .skill-item{
 	font-family: 'Edu NSW ACT Foundation';
 	font-weight: 500;
 }
-.biography-details li, .skill-list li {
-	padding-left: 1em;
-	font-family: 'Edu NSW ACT Foundation';
-	font-weight: 500;
-}
+
 .header-content {
 	font-family: 'Edu NSW ACT Foundation';
 	font-weight: 500;
@@ -101,10 +94,22 @@ body {
 	color: #9C5A71;
 	font-family: 'Edu NSW ACT Foundation';
 	font-weight: 500;
-	
+	font-size: 12px;
 }
 .contact-icon {
-	height: 1.5em;
+	height: 20px;
+	width: 20px;
 	flex-basis: 1.5em;
-	padding-right: 5px;
+	margin: 5px;
+}
+/* lists */
+.biography-details li::before, .skill-list li::before {
+	content: ">";
+	display: inline-block;
+	width: 1em;
+	margin-left: 1em;
+	padding-right: 1em;
+}
+.skill-list li::before {
+	color: #9C5A71;
 }
